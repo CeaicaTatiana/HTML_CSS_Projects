@@ -13,16 +13,27 @@ figure {
 figcaption {
   padding: 10px;
 }
-
-.timeline {
+ul {
+  max-width: 550px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+  line-height: 1.6;
+}
+/* .timeline {
   width: 40%;
   text-align: left;
   line-height: 2;
   margin: auto;
- }
+ } */
 
- blockquote {
+ /* blockquote {
    width: 40%;
    margin: auto;
+   text-align: left;
+ } */
+ blockquote {
+   font-style: italic;
+   max-width: 545px;
+   margin: 0 auto 50px auto;
    text-align: left;
  }
