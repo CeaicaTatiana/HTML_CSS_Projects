@@ -1,0 +1,28 @@
+.container {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+    'Helvetica Neue', Arial, sans-serif;
+  font-size: 1.3rem;
+  line-height: 1.5;
+  background-color: #cfcbd1;
+  text-align: center;
+}
+
+figure {
+  background: white;
+}
+figcaption {
+  padding: 10px;
+}
+
+.timeline {
+  width: 40%;
+  text-align: left;
+  line-height: 2;
+  margin: auto;
+ }
+
+ blockquote {
+   width: 40%;
+   margin: auto;
+   text-align: left;
+ }
