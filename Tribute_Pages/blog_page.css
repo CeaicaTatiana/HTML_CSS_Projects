@@ -9,3 +9,6 @@ img {
   max-width: 550px;
   max-height: 400px;
 }
+body {
+  background-color: #dff5f1;
+}
