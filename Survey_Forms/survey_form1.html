@@ -15,13 +15,13 @@
         <div class="form-group">
 
         <label id="name-label" for="name">Name</label>
-        <input type="text" name="name" placeholder="Enter your name" required>
+        <input class="personal" type="text" name="name" placeholder="Enter your name" required>
 
         <label id="email-label" for="email">Email</label>
-        <input type="email" name="email" placeholder="Enter your Email" required>
+        <input class="personal" type="email" name="email" placeholder="Enter your Email" required>
 
         <label for="age">Age <span>(optional)</span></label>
-        <input type="number" min="10" max="99" name="age" placeholder="Age">
+        <input class="personal" type="number" min="10" max="99" name="age" placeholder="Age">
 
         <p>Which option best describes your current role?</p>
 
@@ -39,20 +39,22 @@
         <p>Would you recommend freeCodeCamp to a friend?</p>
         <!-- radio button -->
 
-        <label for="recommendation">Definitely</label>
         <input type="radio" name="recommendation" value="definitely">
+        <label for="recommendation">Definitely</label>
 
-        <label for="recommendation">Maybe</label>
         <input type="radio" name="recommendation" value="maybe">
+        <label for="recommendation">Maybe</label>
 
-        <label for="recommendation">Not sure</label>
         <input type="radio" name="recommendation" value="Not sure">
+        <label for="recommendation">Not sure</label>
+
 
         <!-- drop-down menu -->
 
         <p>What is your favorite feature of freeCodeCamp?</p>
 
         <select class="mostLike" name="mostLike">
+          <option disabled selected value>Select an option</option>
           <option value="challenges">Challenges</option>
           <option value="projects">Projects</option>
           <option value="community">Community</option>
@@ -63,37 +65,37 @@
          <!-- checkbox -->
 
          <input type="checkbox" name="front-end-projects">
-         <label for="front-end-projects">Front-end Projects</label> <br>
+         <label for="front-end-projects">Front-end Projects</label>
 
          <input type="checkbox" name="back-end-projects">
-         <label for="back-end-projects">Back-end Projects</label> <br>
+         <label for="back-end-projects">Back-end Projects</label>
 
          <input type="checkbox" name="data-visualization">
-         <label for="fdata-visualization">Data Visualization</label> <br>
+         <label for="fdata-visualization">Data Visualization</label>
 
          <input type="checkbox" name="challenges">
-         <label for="challenges">Challenges</label> <br>
+         <label for="challenges">Challenges</label>
 
          <input type="checkbox" name="open-source-community">
-         <label for="open-source-community">Open Source Community</label> <br>
+         <label for="open-source-community">Open Source Community</label>
 
          <input type="checkbox" name="gitter-help-rooms">
-         <label for="gitter-help-rooms">Gitter help rooms</label> <br>
+         <label for="gitter-help-rooms">Gitter help rooms</label>
 
          <input type="checkbox" name="videos">
-         <label for="videos">Videos</label> <br>
+         <label for="videos">Videos</label>
 
          <input type="checkbox" name="city-meetups">
-         <label for="city-meetups">City Meetups</label> <br>
+         <label for="city-meetups">City Meetups</label>
 
          <input type="checkbox" name="wiki">
-         <label for="wiki">Wiki</label> <br>
+         <label for="wiki">Wiki</label>
 
          <input type="checkbox" name="forum">
-         <label for="forum">Forum</label> <br>
+         <label for="forum">Forum</label>
 
          <input type="checkbox" name="additional-courses">
-         <label for="additional-courses">Additional Courses</label> <br>
+         <label for="additional-courses">Additional Courses</label>
 
          <p>Any comments or suggestions?</p>
          <textarea name="name" rows="8" cols="80" placeholder="Enter your comment here:"></textarea>

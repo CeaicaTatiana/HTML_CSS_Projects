@@ -29,3 +29,16 @@ header {
   padding-top: 30px;
   padding-bottom: 10px;
 }
+
+label {
+  display: flex;
+
+}
+
+.personal, select {
+  width: 500px;
+  height: 40px;
+  border-radius: 0.25rem;
+  font-size: 1rem;
+
+}
