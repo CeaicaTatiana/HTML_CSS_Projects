@@ -53,3 +53,12 @@ p {
 span {
   font-size: 1rem;
 }
+
+textarea {
+  min-height: 120px;
+}
+button {
+  min-height: 40px;
+  background-color: #37af65;
+  color: white;
+}
