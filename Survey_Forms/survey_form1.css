@@ -30,14 +30,12 @@ header {
   padding-bottom: 10px;
 }
 
-label {
-  /* display: flex; */
+#name-label, #email-label, #age-label{
   padding-top: 20px;
   margin-left: 50px;
-
 }
 
-.personal, select {
+.personal, select, textarea {
   width: 600px;
   height: 30px;
   border-radius: 0.25rem;
@@ -47,5 +45,8 @@ label {
 }
 
 p {
+  padding-left: 50px;
+}
+.checkbox-container {
   padding-left: 50px;
 }
