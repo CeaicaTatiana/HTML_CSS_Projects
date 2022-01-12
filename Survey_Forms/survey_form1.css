@@ -31,14 +31,21 @@ header {
 }
 
 label {
-  display: flex;
+  /* display: flex; */
+  padding-top: 20px;
+  margin-left: 50px;
 
 }
 
 .personal, select {
-  width: 500px;
-  height: 40px;
+  width: 600px;
+  height: 30px;
   border-radius: 0.25rem;
   font-size: 1rem;
+  margin: 10px 40px 0px 50px;
+  margin-bottom: 20px;
+}
 
+p {
+  padding-left: 50px;
 }
