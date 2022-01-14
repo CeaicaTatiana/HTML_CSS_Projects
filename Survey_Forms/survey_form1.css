@@ -1,4 +1,23 @@
-body {
+/* ::before ::after etc. se numesc pseudoselectori
+    elementele pentru care se aplica stilul nu exista in DOM, dar browser-ul stie sa simuleze ca si cand ar fi
+    https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements
+
+    folosesti un pseudo element pentru ca vrei sa aplici stilurile doar pentru background
+    alternativ, in loc sa ai doar un body puteai sa ai urmatoarea structura
+
+    <body>
+      <div id="wrapper">
+        <div id="container">
+
+    body - stilurile exact cum le-ai scris tu inainte de modificarile mele + position:relative 
+    wrapper - width/height 100% si overflow auto (in asa fel incat sa ai un al doilea body)
+    container - fara stiluri speciale
+
+    practic, cu solutia curenta, #wrapper este exact body::before 
+
+*/
+
+body::before { /* pseudo selector pt pseudo elementul creat de browser */
   background-image: url("https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg");
   font-family: 'Poppins', sans-serif;
   font-size: 1.2rem;
@@ -10,6 +29,15 @@ body {
   background: linear-gradient(rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7)), url("https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg");
   background-size: cover;
   overflow: hidden;
+
+  
+  content: ""; /* fara content un pseudo element nu o sa fie niciodata afisat de browser */
+  position: fixed; /* imaginea o ramane fixa si e foarte usor de pozitionat relativ la window folosind top/left/width/height */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1; /* in body::before, elementul de ::before e desenat in mod normal peste body; noi vrem ca tot ce e continut in ::before (background-image) sa fie in spate */
 }
 
 .container {
