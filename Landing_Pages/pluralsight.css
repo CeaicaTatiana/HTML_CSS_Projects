@@ -13,5 +13,18 @@ body {
 
 img{
   height: 60px;
-  padding: 30px 0px 30px 180px;
+  padding: 30px 230px 30px 230px;
+}
+
+label {
+  display: flex;
+  padding-left: 70px;
+}
+
+input {
+  width: 80%;
+  height: 35px;
+  margin: 5px 0px 5px 70px;
+  background-color: #0d0c0c;
+  border: 1px solid white;
 }
