@@ -1,8 +1,12 @@
 body {
-  background-color: black;
+  background-color: #141414;
 }
 
 .container {
   color: white;
-  background-color: #353640;
+  background-color: #0d0c0c;
+  width: 40%;
+  height: 80%;
+  margin:auto;
+  margin-top: 200px;
 }
