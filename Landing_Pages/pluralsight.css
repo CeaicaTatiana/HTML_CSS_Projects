@@ -8,7 +8,8 @@ body {
   width: 35%;
   height: 80%;
   margin:auto;
-  margin-top: 200px;
+  margin-top: 150px;
+  border-right: 6px solid black;
 }
 
 img{
@@ -53,6 +54,6 @@ footer, #terms, #policy {
   text-align: center;
   color: #71777a;
   font-size: 15px;
-  padding-bottom: 60px;
+  padding-bottom: 50px;
   padding-top: 30px;
 }
