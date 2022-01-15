@@ -18,22 +18,32 @@ img{
 
 label {
   display: flex;
-  padding-left: 70px;
+  padding-left: 65px;
 }
 
 input {
   width: 80%;
   height: 35px;
-  margin: 5px 0px 30px 70px;
+  margin: 5px 0px 30px 65px;
   background-color: #0d0c0c;
   border: 1px solid white;
 }
 
-#sign_in {
+#sign_in, #create_account {
   width: 81%;
   height: 40px;
   margin: 20px 0px 5px 70px;
   background-color: #4681bd;
   color: white;
   border: hidden;
+}
+
+.forgot_password {
+  color: #4681bd;
+  text-align: center;
+  margin-top: 50px;
+}
+
+#create_account {
+  background-color: #71777a;
 }
