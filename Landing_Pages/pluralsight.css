@@ -10,3 +10,8 @@ body {
   margin:auto;
   margin-top: 200px;
 }
+
+img{
+  height: 60px;
+  padding: 30px 0px 30px 180px;
+}
