@@ -40,6 +40,11 @@ input {
   font-size: 15px;
 }
 
+hr {
+  width: 81%;
+  margin: 20px 0px 5px 70px;
+}
+
 .forgot_password {
   color: #4681bd;
   text-align: center;
