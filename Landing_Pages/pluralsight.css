@@ -5,7 +5,7 @@ body {
 .container {
   color: white;
   background-color: #0d0c0c;
-  width: 40%;
+  width: 35%;
   height: 80%;
   margin:auto;
   margin-top: 200px;
@@ -13,7 +13,7 @@ body {
 
 img{
   height: 60px;
-  padding: 30px 230px 30px 230px;
+  padding: 30px 200px 30px 200px;
 }
 
 label {
@@ -24,7 +24,16 @@ label {
 input {
   width: 80%;
   height: 35px;
-  margin: 5px 0px 5px 70px;
+  margin: 5px 0px 30px 70px;
   background-color: #0d0c0c;
   border: 1px solid white;
+}
+
+#sign_in {
+  width: 81%;
+  height: 40px;
+  margin: 20px 0px 5px 70px;
+  background-color: #4681bd;
+  color: white;
+  border: hidden;
 }
