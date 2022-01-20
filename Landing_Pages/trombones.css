@@ -23,3 +23,21 @@ a {
 nav {
   text-align: right;
 }
+
+.submit {
+  text-align: center;
+}
+
+input {
+  width: 200px;
+  height: 25px;
+}
+
+button {
+  background-color: orange;
+}
+#get_started {
+  margin-top: 10px;
+  width: 150px;
+  height: 25px;
+}
