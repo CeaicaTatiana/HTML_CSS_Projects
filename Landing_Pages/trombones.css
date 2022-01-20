@@ -35,6 +35,10 @@ input {
 
 button {
   background-color: orange;
+  width: 100px;
+  height: 35px;
+  margin-left: 110px;
+  border: none;
 }
 #get_started {
   margin-top: 10px;
@@ -51,4 +55,29 @@ button {
 
 iframe {
   padding-top: 50px;
+}
+
+.pricing {
+  padding-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.product {
+  border: 1px solid black;
+  margin-right: 20px;
+  width: 320px;
+  height: 320px;
+}
+
+.level {
+  text-align: center;
+  padding-top: 20px;
+  background-color: #a1a6a2;
+  height: 40px;
+  font-size: 18px;
+}
+
+ .product > h2,p {
+  text-align: center;
 }
