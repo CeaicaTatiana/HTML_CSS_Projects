@@ -23,31 +23,3 @@ a {
 nav {
   text-align: right;
 }
-
-/* nav {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-} */
-
-/* nav > ul {
-  width: 35vw;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-} */
-/* a {
-  color: #000;
-  text-decoration: none; /*not underlined*/
-  width: 35vw;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-} */
-
-nav > a {
-  /* display: inline-block; */
-  /* vertical-align: top; */
-
-
-}
