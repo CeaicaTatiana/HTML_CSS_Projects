@@ -2,3 +2,14 @@ body {
   background-color: #eee;
   font-family: 'Lato', sans-serif;
 }
+
+img {
+  height: 40px;
+  width: 300px;
+}
+
+nav > ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
