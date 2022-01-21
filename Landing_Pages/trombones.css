@@ -114,3 +114,16 @@ footer > span {
 i {
   color: orange;
 }
+
+.icon {
+  margin-right: 900px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.description {
+  margin-right: 10px;
+}
+#premium {
+  padding-right: 170px;
+}
