@@ -26,6 +26,7 @@ nav {
 
 .submit {
   text-align: center;
+  margin-top: 70px;
 }
 
 input {
@@ -96,13 +97,13 @@ footer {
   color: black;
   margin-top: 15px;
   padding-left: 5px;
-  margin-right: 10px;
+  margin-right: 25px;
 
 }
 
 footer > span {
   color: #626663;
-  margin-right: 10px;
+  margin-right: 15px;
   margin-top: 5px;
   font-size: 15px;
   display: flex;
