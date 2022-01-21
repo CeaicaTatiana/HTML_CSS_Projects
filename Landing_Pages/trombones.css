@@ -44,6 +44,7 @@ button {
   margin-top: 10px;
   width: 150px;
   height: 25px;
+  margin-right: 110px;
 }
 
 .content {
@@ -80,4 +81,30 @@ iframe {
 
  .product > h2,p {
   text-align: center;
+}
+
+footer {
+  width: 1000px;
+  height: 70px;
+  background-color: #a1a6a2;
+  text-align: right;
+  margin-left: 435px;
+  margin-top: 30px;
+}
+
+#privacy, #contact, #terms {
+  color: black;
+  margin-top: 15px;
+  padding-left: 5px;
+  margin-right: 10px;
+
+}
+
+footer > span {
+  color: #626663;
+  margin-right: 10px;
+  margin-top: 5px;
+  font-size: 15px;
+  display: flex;
+  justify-content: flex-end;
 }
