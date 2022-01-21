@@ -67,9 +67,10 @@ iframe {
 
 .product {
   border: 1px solid black;
-  margin-right: 20px;
+  margin-right: 30px;
   width: 320px;
   height: 320px;
+
 }
 
 .level {
@@ -89,8 +90,8 @@ footer {
   height: 70px;
   background-color: #a1a6a2;
   text-align: right;
-  margin-left: 435px;
   margin-top: 30px;
+  margin-left: 320px;
 }
 
 #privacy, #contact, #terms {
@@ -108,4 +109,8 @@ footer > span {
   font-size: 15px;
   display: flex;
   justify-content: flex-end;
+}
+
+i {
+  color: orange;
 }
