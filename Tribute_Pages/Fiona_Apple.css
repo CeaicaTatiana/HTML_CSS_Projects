@@ -4,7 +4,7 @@ body {
   background-color: black;
 }
 
-h1,h2,h3,h4,p {
+h1,h2,h3,h4,h6,p {
   color: #AAAAAA;
 }
 
@@ -28,6 +28,10 @@ a {
   color: white;
 }
 
-.header {
-  margin-bottom: 40px;
+.header, .above, .discography {
+  margin-bottom: 60px;
+}
+
+hr {
+  background-color: white;
 }
